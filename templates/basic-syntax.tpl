@@ -30,3 +30,11 @@
 {assign var=result value="`$num1+$num2`"}
 {$result}
 
+{* Arrays *}
+<ul>
+  <li><strong>Name:</strong>{$first_person.name}</li>
+  <li><strong>Last name:</strong>{$first_person.last_name}</li>
+  <li><strong>Job:</strong>{$first_person.job}</li>
+  <li><strong>Email:</strong>{$first_person.email}</li>
+  <li><strong>Phone:</strong>{$first_person.phone}</li>
+</ul>

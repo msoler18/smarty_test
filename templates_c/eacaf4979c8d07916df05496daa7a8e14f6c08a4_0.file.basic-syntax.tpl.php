@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-04-09 23:00:19
+/* Smarty version 3.1.34-dev-7, created on 2020-04-09 23:34:22
   from '/Users/miguelsoler/Documents/platzi/php/smartest/templates/basic-syntax.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5e8fa903c8d5f3_14966157',
+  'unifunc' => 'content_5e8fb0fe49a8a5_54126878',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'eacaf4979c8d07916df05496daa7a8e14f6c08a4' => 
     array (
       0 => '/Users/miguelsoler/Documents/platzi/php/smartest/templates/basic-syntax.tpl',
-      1 => 1586473218,
+      1 => 1586475260,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5e8fa903c8d5f3_14966157 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5e8fb0fe49a8a5_54126878 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 
@@ -52,5 +52,16 @@ $_smarty_tpl->_assignInScope('result', ((string)($_smarty_tpl->tpl_vars['num1']-
 echo $_smarty_tpl->tpl_vars['result']->value;?>
 
 
-<?php }
+<ul>
+  <li><strong>Name:</strong><?php echo $_smarty_tpl->tpl_vars['first_person']->value['name'];?>
+</li>
+  <li><strong>Last name:</strong><?php echo $_smarty_tpl->tpl_vars['first_person']->value['last_name'];?>
+</li>
+  <li><strong>Job:</strong><?php echo $_smarty_tpl->tpl_vars['first_person']->value['job'];?>
+</li>
+  <li><strong>Email:</strong><?php echo $_smarty_tpl->tpl_vars['first_person']->value['email'];?>
+</li>
+  <li><strong>Phone:</strong><?php echo $_smarty_tpl->tpl_vars['first_person']->value['phone'];?>
+</li>
+</ul><?php }
 }
