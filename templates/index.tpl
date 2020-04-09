@@ -1,3 +1,3 @@
 {* Smarty *}
 
-Hello, {$name}!
+{* Comments *}
